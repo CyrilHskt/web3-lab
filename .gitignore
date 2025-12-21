@@ -1,0 +1,19 @@
+# Obsidian config & cache
+.obsidian/workspace*
+.obsidian/appearance.json
+.obsidian/plugins/obsidian-git/*
+.obsidian/plugins/*/data.json
+.obsidian/plugins/*/cache/**
+.obsidian/plugins/templater-obsidian/*
+.obsidian/plugins/dataview/*
+.obsidian/plugins/calendar/*
+.obsidian/plugins/*-cache/**
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Backup / export folders (if you ever use them)
+.excalidraw
+.backup/
+exports/
