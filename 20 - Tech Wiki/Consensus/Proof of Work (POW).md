@@ -1,0 +1,5 @@
+L’idée générale de la preuve de travail est finalement assez simple : **la version de la [[Blockchain]] (de la base de données) qui est acceptée comme étant la bonne est celle dans laquelle le plus de puissance de calcul informatique a été investie**. Pourquoi ? Parce que dépenser de la puissance de calcul informatique a un coût, en matériel et en énergie et est infalsifiable. Lorsqu’un ordinateur a effectué un calcul complexe, il peut en faire la preuve simplement en fournissant le résultat.
+
+Concrètement: ceux que l’on va appeler Miner (qui vont miner des blocs) vont faire des calculs complexes pour arriver à trouver la solution à un problème posé par la blockchain. Si ils y arrivent avant les autres, alors il leur est permis de prendre les transactions en cours et de les inscrire dans un bloc. Le réseau voit alors le bloc être déployé et éventuellement l’acceptera comme bloc de la blockchain.
+
+Le réseau rémunèrera alors le miner en lui offrant de la valeur, la cryptomonnaie de la blockchain.

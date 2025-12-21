@@ -1,0 +1,1 @@
+La Nominated proof of stake (NPOS, preuve d'enjeu nominative ) diffère de la [[Delegated Proof or Stake (DPOS)]] dans le fait qu’elle est plus stricte. Ici on va avoir un groupe de nominateurs qui vont définir qui vont être les validateurs, et les nominateurs pourront de fait être tenus responsables de leur nomination.

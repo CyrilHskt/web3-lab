@@ -1,0 +1,1 @@
+La preuve d'autorité (POA) exige des validateurs qu'ils prouvent leur identité, renforçant la confiance sans forcer la divulgation d'informations personnelles.

@@ -1,0 +1,1 @@
+La preuve de temps (POT) favorise les validateurs actifs et productifs, récompensant la contribution constante

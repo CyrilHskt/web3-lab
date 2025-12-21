@@ -1,0 +1,1 @@
+> « Une version d'un système de paiement purement pair-à-pair permettrait des paiements en ligne directs d'une partie à l'autre sans passer par une institution financière. »

@@ -1,0 +1,231 @@
+{
+  "main": {
+    "id": "ed7734fe07addb3a",
+    "type": "split",
+    "children": [
+      {
+        "id": "5d197df2b6338df8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "336ace25eaa15f77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20 - Tech Wiki/EVM & Ethereum/EVM opcodes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "EVM opcodes"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "45a177f48c9493e5",
+    "type": "split",
+    "children": [
+      {
+        "id": "7f5c9a33c5ef2a41",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "274c91db9535b92d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorateur de fichiers"
+            }
+          },
+          {
+            "id": "7fca1ddb514288bf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Rechercher"
+            }
+          },
+          {
+            "id": "b8d737c27e06fe5b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Signets"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "65a846e1477c583e",
+    "type": "split",
+    "children": [
+      {
+        "id": "9eabd4d7f0246594",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5386ad28ef9ab3f4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Vercel.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Rétrolien pour Vercel"
+            }
+          },
+          {
+            "id": "4f7f2bb04dfc7aed",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Sans titre.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Liens sortants de Sans titre"
+            }
+          },
+          {
+            "id": "de67b5a1f5c85715",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Mots-clés"
+            }
+          },
+          {
+            "id": "09cde05575e654b3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Toutes les propriétés"
+            }
+          },
+          {
+            "id": "1ac4c9f155f012ab",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Sans titre.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Plan de Sans titre"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "274c91db9535b92d",
+  "lastOpenFiles": [
+    "20 - Tech Wiki/Cryptography/Asymmetric cryptography.md",
+    "20 - Tech Wiki/Consensus/Game theory for incentives.md",
+    "20 - Tech Wiki/EVM & Ethereum/EVM opcodes.md",
+    "20 - Tech Wiki/EVM & Ethereum/Etherium whitepaper.md",
+    "20 - Tech Wiki/EVM & Ethereum/Gwei (Etherium GAS basic unit).md",
+    "20 - Tech Wiki/Cryptography/Nonce.md",
+    "20 - Tech Wiki/Cryptography/Merkle Tree.md",
+    "20 - Tech Wiki/Bitcoin/Bitcoin whitepaper.md",
+    "10 - Learning/Alyra/Meeting du mercredi/01 - 10 décembre 2025.md",
+    "10 - Cours & Formations/Alyra/Cours/Introduction Blockchain - Partie 2.md",
+    "98 - Social content/Linkedin",
+    "98 - Social content",
+    "00 - Inbox/TODO.md",
+    "Nouveau dossier",
+    "20 - Tech Wiki/Bitcoin/Satochi.md",
+    "99 - Images/Pasted image 20251211100734.png",
+    "20 - Tech Wiki/EVM & Ethereum/Gas.md",
+    "99 - Images/Pasted image 20251211100543.png",
+    "20 - Tech Wiki/EVM & Ethereum/Architecture of Etherium.md",
+    "20 - Tech Wiki/Web3 globals/Node.md",
+    "20 - Tech Wiki/Consensus/Proof of Stake (POS).md",
+    "20 - Tech Wiki/Consensus/Consensus.md",
+    "20 - Tech Wiki/Consensus/Proof of Work (POW).md",
+    "99 - Images/Pasted image 20251210224301.png",
+    "20 - Tech Wiki/Wallet/Private & Public keys pair.md",
+    "20 - Wiki Tech/Etherium",
+    "99 - Images",
+    "99 - Images/Pasted image 20251210222829.png",
+    "20 - Tech Wiki/Web3 globals/Blockchain client.md",
+    "20 - Tech Wiki/Wallet",
+    "20 - Tech Wiki/Web3 globals/Blockchain.md",
+    "99 - Images/Pasted image 20251210221635.png",
+    "20 - Tech Wiki/Web3 globals/Block.md",
+    "20 - Tech Wiki/Cryptography/Hash.md",
+    "20 - Tech Wiki/Cryptography/Hexadecimal (16).md",
+    "[Hash.md",
+    "20 - Tech Wiki/Cryptography",
+    "20 - Tech Wiki/Consensus/Proof of History (POH).md",
+    "20 - Tech Wiki/Consensus",
+    "99 - Images/Pasted image 20251210213052.png",
+    "20 - Tech Wiki/Web3 globals",
+    "20 - Tech Wiki/Bitcoin"
+  ]
+}

@@ -1,0 +1,1 @@
+La preuve d'historique (POH) de Solana crée une empreinte unique des nœuds, bien que dépendante de la validation automatisée, présentant des risques potentiels malgré ses avantages.
