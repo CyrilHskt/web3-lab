@@ -1,5 +1,2 @@
-- I use AI to code just as I use the semi-autonomous driving feature in my Tesla.
-- I use AI to help me brainstorm about a problem.
-- I use AI in the same way that I use a car's satnav to plan a journey.
 - I finally decided to go open source (and it's both easy and extremely difficult).
-- I don't think we're going to be replaced by AI, at least not if we behave like Dorothy Vaughan in Hidden Figures (and no, this isn't a love letter to Fortran).
+- Never underestimate the influence of your soft power on your team mates (eg. Clément). "Bad men need nothing more to compass their ends, than that good men should look on and do nothing." - John Stuart Mill 
