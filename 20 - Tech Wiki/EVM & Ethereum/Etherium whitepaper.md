@@ -1,11 +1,13 @@
-Ce protocole a été conçu et imaginé en 2013 par Vitalik Buterin à l’âge de 19 ans. Réalisant qu’il était difficile d’implémenter des nouvelles fonctionnalités sur Bitcoin, il publie une description de son projet Ethereum sous la forme d'un livre blanc et dans un [post de blog](http://web.archive.org/web/20131228111141/http://vbuterin.com/ethereum.html) de 2013 intitulé Ethereum : [The Ultimate Smart Contract and Decentralized Application Platform](https://drive.google.com/drive/u/0/folders/1iESOknlAeAHBOHfSetKe8Qj32-vLLZtl). 
+This protocol was conceived and designed in 2013 by Vitalik Buterin, at the age of 19. Realizing how difficult it was to implement new features on Bitcoin, he published a description of his Ethereum project as a white paper and in a 2013 [blog post](http://web.archive.org/web/20131228111141/http://vbuterin.com/ethereum.html) titled “Ethereum: [The Ultimate Smart Contract and Decentralized Application Platform](https://drive.google.com/drive/u/0/folders/1iESOknlAeAHBOHfSetKe8Qj32-vLLZtl).”
 
-Pour financer le développement du projet Vitalik Buterin met en prévente les premiers Ethers dans une [vente de tokens](https://academy.binance.com/glossary/token-sale) publique appelée [Initial Coin Offering (ICO)](https://academy.binance.com/fr/economics/what-is-an-ico), où ceux qui souhaitaient participer pouvaient acheter des tokens ether en échange de bitcoins ou de monnaie fiduciaire – vous allez développer un smart contract d’ICO lors de votre formation. 
+To fund the project’s development, Vitalik Buterin pre-sold the first ethers in a public token sale called an Initial Coin Offering (ICO), where participants could buy ether tokens in exchange for bitcoin or fiat currency — you will develop an ICO smart contract during your training.
 
-La vente lui permet alors de rassembler 31 529 bitcoins d'une valeur de plus de 18 millions de dollars à l'époque, pour 60 millions d'Ethers vendus. Grâce à cette vente la Blockchain Ethereum a été lancée le 30 juillet 2015. 
+The sale enabled him to raise 31,529 bitcoins, worth more than $18 million at the time, in exchange for 60 million ethers. Thanks to this sale, the Ethereum blockchain was launched on July 30, 2015.
 
-En 2016, le White Paper (Livre Blanc) de Ethereum a été publié. Vous pouvez consulter la version originale [ici](https://whitepaper.io/document/5/ethereum-whitepaper) ou la version traduite [ici](https://www.ethereum-france.com/livre-blanc-white-paper-ethereum-traduction-francaise/)..
+In 2016, the Ethereum White Paper was published. You can read the original version [here](https://whitepaper.io/document/5/ethereum-whitepaper) or the translated version [here](https://www.ethereum-france.com/livre-blanc-white-paper-ethereum-traduction-francaise/).
 
-### La différence entre Ethereum et ether ?
+### The difference between Ethereum and ether
 
-Le protocole Ethereum utilise des unités, les ethers, qui sont la monnaie sur laquelle repose cette technologie. Ethereum fait référence au réseau lui-même et l’ether (ou ETH) représente la devise native utilisée sur cette Blockchain. 
+The Ethereum protocol uses a unit called the ether, which is the currency underpinning this technology. “Ethereum” refers to the network itself, while ether (or ETH) is the native currency used on this blockchain.
+
+While Bitcoin was designed to evolve finance, Ethereum was designed to evolve the web.
