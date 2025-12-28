@@ -1,40 +1,39 @@
-## Définition
+## Definition
 
-- **Opcode** = *operation code* : instruction primitive comprise directement par la machine (ici, l’EVM).
-- Le bytecode d’un smart contract est une **suite d’opcodes** (1 octet chacun) que l’EVM lit et exécute.
-- Chaque opcode représente une action **atomique** :
-  - opération arithmétique (`ADD`, `MUL`, …)
-  - gestion de la pile (`PUSH`, `POP`, `DUP`, `SWAP`)
-  - lecture/écriture en mémoire ou stockage (`MLOAD`, `MSTORE`, `SLOAD`, `SSTORE`)
-  - contrôle de flux (`JUMP`, `JUMPI`, `STOP`, `RETURN`, `REVERT`)
-  - interactions blockchain (`CALL`, `LOG`, lecture du `BLOCKNUMBER`, `TIMESTAMP`, etc.).
+- **Opcode** = *operation code*: a primitive instruction understood directly by the machine (here, the EVM).
+- A smart contract’s bytecode is a **sequence of opcodes** (1 byte each) that the EVM reads and executes.
+- Each opcode represents an **atomic** action:
+  - arithmetic operation (`ADD`, `MUL`)
+  - stack manipulation (`PUSH`, `POP`, `DUP`, `SWAP`)
+  - memory/storage read-write (`MLOAD`, `MSTORE`, `SLOAD`, `SSTORE`)
+  - control flow (`JUMP`, `JUMPI`, `STOP`, `RETURN`, `REVERT`)
+  - blockchain interactions (`CALL`, `LOG`, reading `BLOCKNUMBER`, `TIMESTAMP`, etc.).
 
-## Lien avec Solidity
+## Link to Solidity
 
-- Le développeur écrit en **Solidity** (ou Vyper, Yul…).
-- Le code est **compilé en bytecode EVM**, donc en séquence d’opcodes.
-- L’EVM ne « comprend » que ces opcodes ; le langage haut niveau n’est qu’une abstraction humaine.
-- Comprendre les opcodes permet :
-  - d’analyser précisément le comportement d’un contrat (sécurité, gas) ;
-  - de faire de l’audit, de la vérification formelle, voire d’écrire de l’assembly EVM à la main.
+- The developer writes in **Solidity** (or Vyper, Yul…).
+- The code is **compiled to EVM bytecode**, i.e., a sequence of opcodes.
+- The EVM only “understands” these opcodes; the high-level language is just a human abstraction.
+- Understanding opcodes helps you:
+  - precisely analyze a contract’s behavior (security, gas);
+  - do auditing, formal verification, or even write EVM assembly by hand.
 
-## Opcodes et gas
+## Opcodes and gas
 
-- Chaque opcode a un **coût en gas fixé par le protocole**.
-  - Exemple : une addition coûte peu, un accès au stockage (`SSTORE`) coûte beaucoup.
-- Le **gas total consommé** par une transaction est la somme des coûts des opcodes exécutés.
-- Optimiser un contrat = souvent réduire le nombre d’opcodes chers, ou remplacer une séquence coûteuse par une séquence plus compacte.
+- Each opcode has a **gas cost defined by the protocol**.
+  - Example: an addition is cheap, a storage write (`SSTORE`) is expensive.
+- The **total gas consumed** by a transaction is the sum of the costs of the executed opcodes.
+- Optimizing a contract often means reducing expensive opcodes, or replacing a costly sequence with a more compact one.
 
-## Rôle dans l’exécution d’un contrat
+## Role in contract execution
 
-1. L’EVM lit le prochain opcode pointé par le **Program Counter**.
-2. Il le **décode** pour savoir quelle opération exécuter.
-3. Il manipule la **pile**, la mémoire, le stockage ou le contexte selon l’opcode.
-4. Il met à jour le compteur de programme, le gas restant, et continue jusqu’à `STOP`, `RETURN` ou `REVERT`.
+1. The EVM reads the next opcode pointed to by the **Program Counter**.
+2. It **decodes** it to determine which operation to execute.
+3. It manipulates the **stack**, memory, storage, or context depending on the opcode.
+4. It updates the program counter, remaining gas, and continues until `STOP`, `RETURN`, or `REVERT`.
 
-## Pourquoi c’est important
+## Why it matters
 
-- Les opcodes sont la **couche la plus basse** de la logique des contrats.
-- Toute transaction Ethereum n’est, en dernière analyse, qu’une exécution séquentielle d’opcodes.
-- Pour l’audit de sécurité, la compréhension fine du gas, ou le reverse‑engineering de bytecode, il est indispensable de raisonner directement en termes d’opcodes.
--
+- Opcodes are the **lowest-level layer** of contract logic.
+- Every Ethereum transaction, ultimately, is just a sequential execution of opcodes.
+- For security auditing, deep gas understanding, or bytecode reverse engineering, it’s essential to reason directly in terms of opcodes.
