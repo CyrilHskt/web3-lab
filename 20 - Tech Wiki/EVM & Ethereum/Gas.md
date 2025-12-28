@@ -1,40 +1,40 @@
-## Pourquoi le gas existe
+## Why gas exists
 
-- Chaque interaction avec une Dapp / un smart contract exécute des instructions **sur tous les [[Node]] du réseau.
-- Pour chaque opération, on paie un coût en **unités de gas**.
-- Objectifs principaux :
-  - Limiter les abus et attaques (spam, DDoS par transactions massives).
-  - Rémunérer les nœuds qui fournissent puissance de calcul et stockage.
-  - Donner une utilité économique à l’ETH (il sert à acheter du gas).
+- Each interaction with a Dapp / a smart contract executes instructions **on every [[Node]] in the network**.
+- For each operation, you pay a cost in **gas units**.
+- Main goals:
+  - Limit abuse and attacks (spam, DDoS via massive transaction submission).
+  - Compensate nodes that provide compute power and storage.
+  - Give ETH an economic utility (it is used to buy gas).
 
-## Distinction gas / ether
+## Gas vs ether
 
-- **Gas** : unité abstraite qui mesure le **coût en calcul** d’une opération (addition, stockage, appel de fonction, etc.).
-  - Chaque type d’instruction a un coût de gas fixe (par ex. `SSTORE` coûte plus cher qu’une simple addition).
-- **Ether (ETH)** : monnaie native dont le **prix varie sur le marché**.
-- Le coût réel payé = `gas_used × gas_price` (exprimé en ETH ou [[Gwei (Etherium GAS basic unit)]]).
+- **Gas**: an abstract unit that measures the **computational cost** of an operation (addition, storage, function call, etc.).
+  - Each instruction type has a fixed gas cost (e.g. `SSTORE` costs more than a simple addition).
+- **Ether (ETH)**: the native currency whose **price fluctuates on the market**.
+- The actual amount paid = `gas_used × gas_price` (expressed in ETH or [[Gwei (Etherium GAS basic unit)]]).
 
-## Marché du gas
+## The gas market
 
-- L’expéditeur choisit :
-  - une **limite de gas** (`gas limit`) = nombre max d’unités de gas que la transaction peut consommer.
-  - un **prix par unité de gas** (`gas price`).
-- Les validateurs / producteurs de blocs :
-  - peuvent **accepter** ou **refuser** une transaction selon le prix proposé.
-  - priorisent les transactions avec un prix de gas plus élevé.
+- The sender chooses:
+  - a **gas limit** (`gas limit`) = the maximum number of gas units the transaction can consume.
+  - a **price per unit of gas** (`gas price`).
+- Validators / block producers:
+  - can **accept** or **reject** a transaction depending on the offered price.
+  - prioritize transactions with a higher gas price.
 
-(En pratique, les wallets modernes estiment automatiquement ces paramètres.)
+(In practice, modern wallets estimate these parameters automatically.)
 
-## Règles de consommation du gas
+## Gas consumption rules
 
-- Si `gas_used ≤ gas_limit` :
-  - la transaction est exécutée ;
-  - seul le gas effectivement consommé est facturé ;
-  - le **gas non utilisé est remboursé** en ETH à l’expéditeur.
-- Si `gas_used > gas_limit` :
-  - l’exécution s’arrête avec une erreur (revert) ;
-  - **tous les changements d’état sont annulés** ;
-  - mais le gas dépensé jusqu’à l’erreur est **perdu** (payé au validateur).
-- Il est donc conseillé d’envoyer une **limite de gas supérieure à l’estimation** : on ne paie que ce qui est réellement consommé.
+- If `gas_used ≤ gas_limit`:
+  - the transaction is executed;
+  - only the gas actually consumed is charged;
+  - **unused gas is refunded** in ETH to the sender.
+- If `gas_used > gas_limit`:
+  - execution stops with an error (revert);
+  - **all state changes are rolled back**;
+  - but the gas spent up to the error is **lost** (paid to the validator).
+- It is therefore recommended to set a **gas limit above the estimate**: you only pay for what is actually consumed.
 
 ![[Pasted image 20251211100543.png]]
