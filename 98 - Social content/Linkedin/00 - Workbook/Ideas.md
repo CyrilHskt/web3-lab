@@ -1,3 +1,5 @@
 - I finally decided to go open source (and it's both easy and extremely difficult).
 - Never underestimate the influence of your soft power on your team mates (eg. Clément). "Bad men need nothing more to compass their ends, than that good men should look on and do nothing." - John Stuart Mill 
 - Faire le lien entre la nouvelle d'Asimov (où l'IA donne le métier des gens et où on suit un gars dont l'IA ne sait pas quoi lui faire faire alors qu'en fait il est sélectionné pour développer l'IA) et le fait que les IA au bout d'un moment, si on ne créé que via elles, il n'y aura plus de contenu original pour alimenter l'ia. Et qu'il faudra toujours des humains créatifs pour pousser la créativité au delà de ce que peut simplement pondre un algorithme. https://www.youtube.com/watch?v=lDsWp8kOSRs
+- S'interroger sur la dégénérescence des compétences que l'on utilise plus car on les délègue à l'IA. Voir dans l'histoire l'utilisation des mathématiques, de l'orthographe, des langues étrangères. 
+- 
