@@ -4,3 +4,4 @@
 - S'interroger sur la dégénérescence des compétences que l'on utilise plus car on les délègue à l'IA. Voir dans l'histoire l'utilisation des mathématiques, de l'orthographe, des langues étrangères. 
 - Démontrer qu'il ne faut surtout pas utiliser ChatGPT comme un google. Déjà qu'il ne fallait pas croire google mais alors maintenant c'est encore pire. Et d'ailleurs, c'est pareil pour le code généré par l'IA et cela pour les mêmes causes.
 - Comment utiliser la heatmap pour optimiser ses frais sur une transaction Ethereum (Live Technique - Ethereum et ses nouveautés - Partie 2 ~1:00:00)
+- Qu'est-ce qu'une ZK Rollup
