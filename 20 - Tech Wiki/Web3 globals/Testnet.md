@@ -1,5 +1,5 @@
-Un réseau identique que le réseau officiel mais destiné à faire des tests avec des tokens factices.
+A network that mirrors the main network ([[Mainnet]]) but is dedicated to testing with **non-valuable** tokens.
 
-Comme par exemple Sepolia pour Etherem. Il est nécessaire d'utiliser des [[Faucet]] pour alimenter son [[Wallet]]
+For example, **Sepolia** is an Ethereum testnet. To get test tokens, you typically use a [[Faucet]] to fund your [[Wallet]].
 
-Attention, il ne faut pas confondre les testnets car celui de Ethereum est différent de celui de ses layer 2 comme Optimism ou Arbitrum.
+Be careful not to confuse testnets: Ethereum’s testnets are different from the testnets of its Layer 2 networks (e.g., Optimism or Arbitrum).
